@@ -41,7 +41,7 @@ if (typingElement) {
     const words = [
         "Electric Vehicle Systems Engineer",
         "Motor Control Algorithm Developer",
-        "Powertrain & Embedded Systems Enthusiast"
+        "Powertrain & Simulation Enthusiast"
     ];
 
     let wordIndex = 0;
@@ -157,3 +157,4 @@ if (darkToggle) {
         document.body.classList.toggle("dark-mode");
     });
 }
+
