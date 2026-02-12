@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ayush Dash | EV & Powertrain Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <meta name="description"
+        content="Portfolio of Ayush Dash - Electrical & Computer Engineering student specializing in Electric Vehicles, Powertrain Systems, Control Algorithms, and PCB Design.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="glass">
+    <nav class="navbar">
+        <h1 class="logo">Ayush.</h1>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="darkToggle" aria-label="Toggle Dark Mode">🌙</button>
+        <div class="menu-toggle">&#9776;</div>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+    <div class="hero-content reveal">
+        <h2>Hello, I'm <span>Ayush Kumar Dash</span></h2>
+        <p class="subtitle">
+            Electric Vehicle & Powertrain Engineering Enthusiast
+        </p>
+        <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <div class="container reveal">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a pre-final year Electrical & Computer Engineering student with strong interest in
+            Electric Vehicle systems, Automotive Powertrain Engineering, and Advanced Control Systems.
+            My technical focus includes Motor Control Algorithms, Power Electronics,
+            PCB Design, and Embedded Systems development.
+        </p>
+
+        <p>
+            Beyond engineering, I closely follow Formula 1 racing and global geopolitics.
+            I am deeply passionate about vehicle dynamics, propulsion systems,
+            and next-generation mobility technologies.
+        </p>
+
+        <h3 class="sub-heading">Core Skills</h3>
+
+        <div class="skills">
+            <span>Electric Vehicle Systems</span>
+            <span>BLDC & Motor Control</span>
+            <span>Altair FluxMotor</span>
+            <span>Power Electronics</span>
+            <span>Python / C / C++</span>
+            <span>KiCAD PCB Design</span>
+            <span>MATLAB / SIMULINK</span>
+            <span>STM32CubeIDE</span>
+        </div>
+
+        <a href="internship resume new.pdf" class="btn" download>
+            Download Resume
+        </a>
+
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section dark">
+    <div class="container">
+
+        <h2 class="reveal">Projects</h2>
+
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card reveal">
+                <img src="project1new.jpg" alt="BLDC Motor Controller">
+                <h3>BLDC Motor Controller Implementation</h3>
+                <p>
+                    Designed and simulated BLDC motor control algorithms in SIMULINK.
+                    Implemented Six-Step Commutation, Field Oriented Control (FOC),
+                    and AI-based Adaptive Tabu Search (ATS) optimization on a
+                    hardware trainer system.
+                </p>
+                <a href="#" class="btn-small">View Details</a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card reveal">
+                <img src="cadwork.png" alt="Linear Induction Motor Setup">
+                <h3>Linear Induction Motor (LIM) Test Setup</h3>
+                <p>
+                    Designed a simulation-based test setup for a Linear Induction Motor
+                    using TinkerCAD. Integrated inductive proximity sensors and force
+                    sensors to evaluate thrust, speed, acceleration, and displacement.
+                </p>
+                <a href="#" class="btn-small">View Details</a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card reveal">
+                <img src="ecad.jpg" alt="Levitation Current Controller PCB">
+                <h3>Levitation Current Controller (Hyperloop)</h3>
+                <p>
+                    Designed and fabricated a Half-Bridge based levitation current
+                    controller PCB using KiCAD. Implemented STM32 MCU to control MOSFET
+                    switching and monitor DC link voltage for precise levitation
+                    current regulation in hyperloop systems.
+                </p>
+                <a href="#" class="btn-small">View Details</a>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+    <div class="container reveal">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" novalidate>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMessage"></p>
+        </form>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Ayush Dash | EV & Powertrain Engineering Portfolio</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
